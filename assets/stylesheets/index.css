@@ -1,44 +1,56 @@
 * {
     margin: 0;
+    padding:0;
 }
 
 body {
-    background-color: #fff
+    background-color: #fff;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
 
 header {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1px solid grey;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding:0.5em 1.5em;
+    /* background-color: red; */
 }
 
 header div:first-child {
     display: flex;
     align-items: center;
     flex: 1;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-size: 14.25px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-header h1:nth-child(2) {
+header div:nth-child(2) {
     /* background-color: red; */
-    flex: 4;
+    flex: 3.5;
     text-align: center;
+}
+
+
+header div:nth-child(2) img {
+    height: 2vw;
 }
 
 header div:nth-child(3) {
     display: flex;
-    flex: 1;
+    flex: 0.9;
     /* background-color: rebeccapurple; */
     justify-content: space-around;
+    align-items:center;
 }
 
 .bluebuttons {
     background-color: #567B95;
     color: #fff;
     padding: 10px;
-    border-radius: 2px;
-    border: 1px solid gray
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-weight: 700;
 }
