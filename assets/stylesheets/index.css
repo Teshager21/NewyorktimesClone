@@ -3,6 +3,14 @@
     padding:0;
 }
 
+/* typography */
+@font-face {
+    font-family: 'Engravers Old English';
+    src:url(/assets/fonts/Engravers\ Old\ English\ Normal.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
 body {
     background-color: #fff;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
@@ -31,6 +39,8 @@ header div:nth-child(2) {
     /* background-color: red; */
     flex: 3.5;
     text-align: center;
+    font-family: Engravers Old English;
+    font-size: 3em;
 }
 
 
