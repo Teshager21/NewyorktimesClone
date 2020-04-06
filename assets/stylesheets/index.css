@@ -49,7 +49,6 @@ header div:nth-child(2) img {
 header div:nth-child(3) {
     display: flex;
     flex: 0.9;
-    /* background-color: rebeccapurple; */
     justify-content: space-around;
     align-items: center;
 }
