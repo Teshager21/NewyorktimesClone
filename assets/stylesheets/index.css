@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-
-/* typography */
-
 @font-face {
     font-family: 'Engravers Old English';
     src: url(/assets/fonts/Engravers\ Old\ English\ Normal.ttf);
@@ -58,7 +55,7 @@ header div:nth-child(3) {
 }
 
 .bluebuttons {
-    background-color: #567b95;
+    background-color: #567B95;
     color: #fff;
     padding: 10px;
     border-radius: 3px;
