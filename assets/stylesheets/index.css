@@ -1,19 +1,21 @@
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
+
 /* typography */
+
 @font-face {
     font-family: 'Engravers Old English';
-    src:url(/assets/fonts/Engravers\ Old\ English\ Normal.ttf);
+    src: url(/assets/fonts/Engravers\ Old\ English\ Normal.ttf);
     font-style: normal;
     font-weight: 100;
 }
 
 body {
     background-color: #fff;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 header {
@@ -21,7 +23,7 @@ header {
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid grey;
-    padding:0.5em 1.5em;
+    padding: 0.5em 1.5em;
     /* background-color: red; */
 }
 
@@ -39,10 +41,9 @@ header div:nth-child(2) {
     /* background-color: red; */
     flex: 3.5;
     text-align: center;
-    font-family: Engravers Old English;
+    font-family: 'Engravers Old English';
     font-size: 3em;
 }
-
 
 header div:nth-child(2) img {
     height: 2vw;
@@ -53,7 +54,7 @@ header div:nth-child(3) {
     flex: 0.9;
     /* background-color: rebeccapurple; */
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
 }
 
 .bluebuttons {
