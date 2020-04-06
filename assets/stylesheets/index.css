@@ -1,67 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
 /* typography */
 
 @font-face {
-    font-family: 'Engravers Old English';
-    src: url(/assets/fonts/Engravers\ Old\ English\ Normal.ttf);
-    font-style: normal;
-    font-weight: 100;
+  font-family: 'Engravers Old English';
+  src: url(/assets/fonts/Engravers\ Old\ English\ Normal.ttf);
+  font-style: normal;
+  font-weight: 100;
 }
 
 body {
-    background-color: #fff;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+  background-color: #fff;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid grey;
-    padding: 0.5em 1.5em;
-    /* background-color: red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  padding: 0.5em 1.5em;
+
+  /* background-color: red; */
 }
 
 header div:first-child {
-    display: flex;
-    align-items: center;
-    flex: 1;
-    justify-content: space-between;
-    font-size: 14.25px;
-    font-weight: 700;
-    text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header div:nth-child(2) {
-    /* background-color: red; */
-    flex: 3.5;
-    text-align: center;
-    font-family: 'Engravers Old English';
-    font-size: 3em;
+  /* background-color: red; */
+  flex: 3.5;
+  text-align: center;
+  font-family: 'Engravers Old English';
+  font-size: 3em;
 }
 
 header div:nth-child(2) img {
-    height: 2vw;
+  height: 2vw;
 }
 
 header div:nth-child(3) {
-    display: flex;
-    flex: 0.9;
-    /* background-color: rebeccapurple; */
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex: 0.9;
+
+  /* background-color: rebeccapurple; */
+  justify-content: space-around;
+  align-items: center;
 }
 
 .bluebuttons {
-    background-color: #567b95;
-    color: #fff;
-    padding: 10px;
-    border-radius: 3px;
-    border: 1px solid gray;
-    font-weight: 700;
+  background-color: #567b95;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  font-weight: 700;
 }
