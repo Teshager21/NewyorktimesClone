@@ -49,7 +49,8 @@ h1 {
 main {
   grid-column: 3/ span 6;
   grid-row: 2/5;
- /*  display: grid;
+
+  /*  display: grid;
   grid-template-columns: repeat(6, 1fr); */
 }
 
@@ -99,6 +100,7 @@ aside {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 3em  auto auto;
 }
+
 .icons a {
   color: black;
   padding: 5px;
@@ -130,10 +132,11 @@ aside {
   width: 10vh;
 }
 
-main{
-  display:grid;
-  grid-template-columns: repeat(6,1fr);
+main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
+
 .main-story {
   grid-column: 1/-1;
 }
