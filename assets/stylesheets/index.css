@@ -47,8 +47,10 @@ h1 {
 }
 
 main {
-  grid-column: 3/7;
+  grid-column: 3/ span 6;
   grid-row: 2/5;
+ /*  display: grid;
+  grid-template-columns: repeat(6, 1fr); */
 }
 
 header div:nth-child(2) {
@@ -80,7 +82,7 @@ aside {
 }
 
 .bg-img {
-  width: 100vh;
+  width: 100%;
 }
 
 .bluebuttons {
@@ -95,9 +97,8 @@ aside {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 3em auto auto auto auto;
+  grid-template-rows: 3em  auto auto;
 }
-
 .icons a {
   color: black;
   padding: 5px;
@@ -116,15 +117,23 @@ aside {
 }
 
 .pwidths {
-  grid-column: 5/span 3;
+  grid-column: 2/span 4;
   background-color: red;
 }
 
 .smallaside {
   grid-column: 7;
-  grid-row: 3;
+  align-items: center;
 }
 
 .smallaside img {
   width: 10vh;
+}
+
+main{
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+}
+.main-story {
+  grid-column: 1/-1;
 }
