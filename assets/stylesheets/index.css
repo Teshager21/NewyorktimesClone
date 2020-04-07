@@ -130,36 +130,34 @@ figcaption span {
 
 .main-story-detail {
   padding: 10px 0;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
+
 .main-story-detail a {
   /* background-color: red; */
-   padding: .7em 0;
-   color:#333;
-   font-weight: 900;
-   text-decoration: #666 solid 1px;
-
+  padding: 0.7em 0;
+  color: #333;
+  font-weight: 900;
+  text-decoration: #666 solid 1px;
 }
 
 .main-story-detail a:hover {
-   text-decoration: none;
-
+  text-decoration: none;
 }
 
 .icons_time {
   /* background-color: red; */
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .icons {
   justify-self: flex-end;
   align-self: flex-end;
-  color:#333;
-  
+  color: #333;
 }
 
 .plus-aside {
@@ -305,20 +303,22 @@ footer {
   border: #666 solid 1px;
 }
 
-.icons a:hover{
+.icons a:hover {
   background-color: white;
   border: #999 solid 1px;
+
   /* border-radius: 50%; */
 }
 
-.whiteicons ion-icon:hover ,span:hover {
+.whiteicons ion-icon:hover,
+span:hover {
   opacity: 0.3;
 }
 
 .whiteicons {
   display: flex;
   justify-content: space-between;
-  flex-basis:4em;
+  flex-basis: 4em;
 }
 
 .whiteicons ion-icon {
