@@ -95,11 +95,11 @@ header div:nth-child(3) {
 /* ======================================================================
                        main
 ====================================================================== */
-main{
+main {
   grid-column: 3/ span 6;
   grid-row: 3;
-  display:grid;
-  grid-template-columns: repeat(6,1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .main-story {
@@ -108,40 +108,48 @@ main{
 
 .plus-aside {
   grid-column: 2/span 4;
-  display:grid;
-  grid-template-columns:repeat(4 1fr);
-  grid-template-rows:repeat(6,auto); 
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: repeat(6, auto);
   grid-gap: 1em;
   background-color: teal;
- /*  align-items: center; */
+
+  /*  align-items: center; */
 }
 
 article {
-   grid-column:1/span 3;
-   grid-row: 1/7;
-   /* grid-row: 1/-1; */
-  /* grid-area: article; */
-/*   background-color:yellow; */
-}
-aside{
- /*  grid-column: span 1/-1; */
-/*  grid-area: aside; */
- align-self: center;
- grid-column: 4;
- grid-row: 3;
-}
-aside div {
-  display:flex;
-  justify-items: space-between;
+  grid-column: 1/span 3;
+  grid-row: 1/7;
 
+  /* grid-row: 1/-1; */
+
+  /* grid-area: article; */
+
+  /*   background-color:yellow; */
 }
+
+aside {
+  /*  grid-column: span 1/-1; */
+
+  /*  grid-area: aside; */
+  align-self: center;
+  grid-column: 4;
+  grid-row: 3;
+}
+
+aside div {
+  display: flex;
+  justify-items: space-between;
+}
+
 aside a {
   margin-left: 1em;
   font-size: 0.75rem;
 }
- aside img {
- width: 4em;
- }
+
+aside img {
+  width: 4em;
+}
 
 .pwidths {
   grid-column: 2/5;
@@ -149,8 +157,9 @@ aside a {
 }
 
 .pwidths iframe {
-  width:100%;
+  width: 100%;
 }
+
 .md-img {
   grid-column: 1/span 5;
 }
@@ -160,7 +169,7 @@ aside a {
 }
 
 .md-fig img {
-  width:100%;
+  width: 100%;
 }
 
 /* ======================================================================
@@ -170,28 +179,32 @@ aside a {
 .more-about-space {
   grid-column: 3/9;
   grid-row: 4;
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 400px 400px;
 }
+
 .more {
   grid-column: 1/span 3;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
 }
 
 .more img {
-  width:100%;
+  width: 100%;
 }
+
 .popular {
   grid-column: span/-1;
   grid-row: span 2;
   background-color: green;
 }
+
 /* ======================================================================
                        aside
 ====================================================================== */
+
 /* aside {
   grid-column: 7/span 2;
   grid-row: 3;
