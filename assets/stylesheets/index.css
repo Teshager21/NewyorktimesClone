@@ -156,25 +156,6 @@ aside{
 
 /* ======================================================================
                        more info
-====================================================================== */
-
-.more-about-space {
-  grid-column: 3/9;
-  grid-row: 4;
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: 400px 400px;
-}
-.more {
-  grid-column: 1/span 3;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 1em;
-}
-
-.more img {
-  width:100%;
-}
 .popular {
   grid-column: span/-1;
   grid-row: span 2;
