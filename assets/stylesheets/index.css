@@ -110,29 +110,38 @@ main{
   grid-column: 2/span 4;
   display:grid;
   grid-template-columns:repeat(4 1fr);
-  grid-template-rows:repeat(4,auto); 
+  grid-template-rows:repeat(6,auto); 
   grid-gap: 1em;
   background-color: teal;
+ /*  align-items: center; */
 }
 
 article {
    grid-column:1/span 3;
-   grid-row: 1/-1;
+   grid-row: 1/7;
+   /* grid-row: 1/-1; */
   /* grid-area: article; */
 /*   background-color:yellow; */
 }
 aside{
  /*  grid-column: span 1/-1; */
- grid-area: aside;
+/*  grid-area: aside; */
  align-self: center;
- grid-column: 2;
+ grid-column: 4;
+ grid-row: 3;
 }
+aside div {
+  display:flex;
+  justify-items: space-between;
 
+}
+aside a {
+  margin-left: 1em;
+  font-size: 0.75rem;
+}
  aside img {
-  width:100%;
-
+ width: 4em;
  }
-
 
 .pwidths {
   grid-column: 2/5;
@@ -156,11 +165,37 @@ aside{
 
 /* ======================================================================
                        more info
+====================================================================== */
+
+.more-about-space {
+  grid-column: 3/9;
+  grid-row: 4;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 400px 400px;
+}
+.more {
+  grid-column: 1/span 3;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+}
+
+.more img {
+  width:100%;
+}
 .popular {
   grid-column: span/-1;
   grid-row: span 2;
   background-color: green;
 }
+/* ======================================================================
+                       aside
+====================================================================== */
+/* aside {
+  grid-column: 7/span 2;
+  grid-row: 3;
+} */
 
 /* ====================================================================
                      footer
