@@ -95,11 +95,11 @@ header div:nth-child(3) {
 /* ======================================================================
                        main
 ====================================================================== */
-main{
+main {
   grid-column: 3/ span 6;
   grid-row: 3;
-  display:grid;
-  grid-template-columns: repeat(6,1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
 .main-story {
@@ -108,30 +108,32 @@ main{
 
 .plus-aside {
   grid-column: 2/span 4;
-  display:grid;
-  grid-template-columns:repeat(4 1fr);
-  grid-template-rows:repeat(4,auto); 
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: repeat(4, auto);
   grid-gap: 1em;
   background-color: teal;
 }
 
 article {
-   grid-column:1/span 3;
-   grid-row: 1/-1;
+  grid-column: 1/span 3;
+  grid-row: 1/-1;
+
   /* grid-area: article; */
-/*   background-color:yellow; */
-}
-aside{
- /*  grid-column: span 1/-1; */
- grid-area: aside;
- align-self: center;
- grid-column: 2;
+
+  /*   background-color:yellow; */
 }
 
- aside img {
-  width:100%;
+aside {
+  /*  grid-column: span 1/-1; */
+  grid-area: aside;
+  align-self: center;
+  grid-column: 2;
+}
 
- }
+aside img {
+  width: 100%;
+}
 
 
 .pwidths {
@@ -140,8 +142,9 @@ aside{
 }
 
 .pwidths iframe {
-  width:100%;
+  width: 100%;
 }
+
 .md-img {
   grid-column: 1/span 5;
 }
@@ -151,7 +154,7 @@ aside{
 }
 
 .md-fig img {
-  width:100%;
+  width: 100%;
 }
 
 /* ======================================================================
@@ -161,25 +164,28 @@ aside{
 .more-about-space {
   grid-column: 3/9;
   grid-row: 4;
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 400px 400px;
 }
+
 .more {
   grid-column: 1/span 3;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
 }
 
 .more img {
-  width:100%;
+  width: 100%;
 }
+
 .popular {
   grid-column: span/-1;
   grid-row: span 2;
   background-color: green;
 }
+
 /* ======================================================================
                        aside
 ====================================================================== */
