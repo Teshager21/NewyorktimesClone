@@ -216,6 +216,7 @@ aside img {
 
 .pwidths {
   grid-column: 2/5;
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
  /*  background-color: red; */
 }
 
@@ -311,6 +312,7 @@ footer .topic_list {
   grid-template-columns: repeat(6, 1fr);
   color:inherit;
   border-bottom: solid 1px #666;
+  padding-bottom: 1em;
 }
  .topics div {
   grid-column: span 1;
