@@ -97,7 +97,7 @@ header div:nth-child(3) {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 3em auto auto auto 30em;
+  grid-template-rows: 3em auto auto auto auto;
 }
 
 
@@ -280,10 +280,42 @@ aside img {
                      footer
 ==================================================================== */
 
-footer {
+.wrapper > footer {
   grid-column: 1/-1;
   grid-row: 5;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+  grid-template-rows: auto 2em;
 }
+
+footer .topic_list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column: 1/-1;
+/*   background-color: teal; */
+
+}
+
+footer .topic_list div {
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+footer footer  {
+  grid-column: 2/-2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer footer * {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.75rem;
+}
+
 
 .icons {
   display: flex;
@@ -306,8 +338,6 @@ footer {
 .icons a:hover {
   background-color: white;
   border: #999 solid 1px;
-
-  /* border-radius: 50%; */
 }
 
 .whiteicons ion-icon:hover,
