@@ -328,17 +328,16 @@ aside img {
   grid-column: 1/-1;
   grid-row: 5;
   display: grid;
-  grid-template-columns: repeat(8, 1fr); 
-  grid-template-rows:auto 4em;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto 4em;
 }
 
 footer .topic_list {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows:3em auto;
+  grid-template-rows: 3em auto;
   grid-column: 1/-1;
   grid-row: 1;
-
 }
 
 .topic_list > h2 {
@@ -346,7 +345,6 @@ footer .topic_list {
   grid-column: 2/span 4;
   font-family: "Engravers Old English";
   font-weight: 500;
- 
 }
 
 .topics {
@@ -354,16 +352,17 @@ footer .topic_list {
   grid-column: -2/2;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  color:inherit;
+  color: inherit;
   border-bottom: solid 1px #666;
   padding-bottom: 1em;
 }
- .topics div {
+
+.topics div {
   grid-column: span 1;
-  display:flex;
+  display: flex;
   flex-direction: column;
   text-decoration: none;
-}  
+}
 
 .topic_list a {
   text-decoration: none;
@@ -371,7 +370,7 @@ footer .topic_list {
   font-size: 1rem;
 }
 
-footer footer  {
+footer footer {
   grid-column: 2/-2;
   grid-row: 2;
   display: flex;
