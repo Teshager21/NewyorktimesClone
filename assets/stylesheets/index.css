@@ -1,3 +1,6 @@
+/* ======================================================================
+                       resets
+====================================================================== */
 * {
   margin: 0;
   padding: 0;
@@ -152,6 +155,68 @@ figcaption span {
   justify-self: flex-end;
   align-self: flex-end;
   color: #333;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 12em;
+}
+
+.icons a {
+  min-width: 1.55em;
+  color: black;
+  padding: 5px;
+  background: gray;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  border: #666 solid 1px;
+}
+
+.icons a:hover {
+  background-color: white;
+  border: #999 solid 1px;
+}
+
+.whiteicons ion-icon:hover,
+span:hover {
+  opacity: 0.3;
+}
+
+.whiteicons {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 4em;
+}
+
+.whiteicons ion-icon {
+  font-size: 30px;
+}
+
+#chat {
+  width: 40px;
+  height: 1.9rem;
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
+  font-size: 0.75rem;
+  background-image: url("../img/chatbox-outline.svg");
+  background-repeat: no-repeat;
+  background-size: 35px;
+}
+
+.figures img {
+  width: 25vh;
+}
+
+.smallaside {
+  grid-column: 7;
+  align-items: center;
+}
+
+.smallaside img {
+  width: 10vh;
 }
 
 .plus-aside {
@@ -316,65 +381,3 @@ footer footer * {
   font-size: 0.75rem;
 }
 
-
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-basis: 12em;
-}
-
-.icons a {
-  min-width: 1.55em;
-  color: black;
-  padding: 5px;
-  background: gray;
-  text-align: center;
-  border-radius: 50%;
-  text-decoration: none;
-  border: #666 solid 1px;
-}
-
-.icons a:hover {
-  background-color: white;
-  border: #999 solid 1px;
-}
-
-.whiteicons ion-icon:hover,
-span:hover {
-  opacity: 0.3;
-}
-
-.whiteicons {
-  display: flex;
-  justify-content: space-between;
-  flex-basis: 4em;
-}
-
-.whiteicons ion-icon {
-  font-size: 30px;
-}
-
-#chat {
-  width: 40px;
-  height: 1.9rem;
-  padding-top: 0.4rem;
-  padding-left: 0.4rem;
-  font-size: 0.75rem;
-  background-image: url("../img/chatbox-outline.svg");
-  background-repeat: no-repeat;
-  background-size: 35px;
-}
-
-.figures img {
-  width: 25vh;
-}
-
-.smallaside {
-  grid-column: 7;
-  align-items: center;
-}
-
-.smallaside img {
-  width: 10vh;
-}
