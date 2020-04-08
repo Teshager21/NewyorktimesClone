@@ -217,6 +217,7 @@ aside img {
 .pwidths {
   grid-column: 2/5;
   font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+  font-size: 1.25rem;
  /*  background-color: red; */
 }
 
