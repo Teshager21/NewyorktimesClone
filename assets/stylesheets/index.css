@@ -1,3 +1,6 @@
+/* ======================================================================
+                       resets
+====================================================================== */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +26,10 @@
   font-weight: 100;
 }
 
-body {}
+
+/* ======================================================================
+                       navbar
+====================================================================== */
 
 header {
   background-color: #fff;
@@ -33,8 +39,6 @@ header {
   justify-content: space-around;
   border-bottom: 1px solid grey;
   padding: 0.1em 1.5em;
-
-  /* background-color: red; */
 }
 
 header div:first-child {
@@ -45,8 +49,6 @@ header div:first-child {
   font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
-
-  /* background-color: red; */
 }
 
 h1 {
@@ -58,7 +60,6 @@ h1 {
 }
 
 header div:nth-child(2) {
-  /* background-color: red; */
   flex: 3;
   text-align: center;
   font-family: "Engravers Old English";
@@ -97,7 +98,8 @@ header div:nth-child(3) {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: 3em auto auto auto 30em;
+  grid-template-rows: 3em auto auto auto auto;
+  grid-row-gap: 2em;
 }
 
 
@@ -136,7 +138,6 @@ figcaption span {
 }
 
 .main-story-detail a {
-  /* background-color: red; */
   padding: 0.7em 0;
   color: #333;
   font-weight: 900;
@@ -148,7 +149,6 @@ figcaption span {
 }
 
 .icons_time {
-  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,131 +158,6 @@ figcaption span {
   justify-self: flex-end;
   align-self: flex-end;
   color: #333;
-}
-
-.plus-aside {
-  grid-column: 2 / 7;
-  display: grid;
-  grid-template-columns: repeat(4 1fr);
-  grid-template-rows: repeat(6, auto);
-  grid-gap: 1em;
-
-  /*  align-items: center; */
-}
-
-article {
-  grid-column: 1 / span 3;
-  grid-row: 1/7;
-}
-
-article p {
-  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
-  font-size: 1.25rem;
-  color: #333;
-}
-
-aside h4 {
-  padding: 10px 0;
-  border-bottom: 1px solid gray;
-}
-
-aside {
-  /*  grid-column: span 1/-1; */
-
-  /*  grid-area: aside; */
-  grid-column: 4;
-  grid-row: 3;
-  display: flex;
-  flex-direction: column;
-}
-
-aside div {
-  flex: 1;
-  margin-top: 10px;
-  display: flex;
-
-  /* justify-items: space-between;  */
-}
-
-.port {
-  margin-left: 1em;
-  font-size: 0.75rem;
-}
-
-aside img {
-  width: 4em;
-}
-
-.pwidths {
-  grid-column: 2/5;
-  background-color: red;
-}
-
-.pwidths iframe {
-  width: 100%;
-}
-
-.md-img {
-  grid-column: 1 / span 5;
-}
-
-.md-fig {
-  grid-column: 1 / span 5;
-}
-
-.md-fig img {
-  width: 100%;
-}
-
-
-/* ======================================================================
-                       more info
-====================================================================== */
-
-.more-about-space {
-  grid-column: 3/9;
-  grid-row: 4;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 400px 400px;
-}
-
-.more {
-  grid-column: 1 / span 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
-}
-
-.more img {
-  width: 100%;
-}
-
-.popular {
-  grid-column: span/-1;
-  grid-row: span 2;
-  background-color: green;
-}
-
-
-/* ======================================================================
-                       aside
-====================================================================== */
-
-
-/* aside {
-  grid-column: 7/span 2;
-  grid-row: 3;
-} */
-
-
-/* ====================================================================
-                     footer
-==================================================================== */
-
-footer {
-  grid-column: 1/-1;
-  grid-row: 5;
 }
 
 .icons {
@@ -306,8 +181,6 @@ footer {
 .icons a:hover {
   background-color: white;
   border: #999 solid 1px;
-
-  /* border-radius: 50%; */
 }
 
 .whiteicons ion-icon:hover,
@@ -348,3 +221,165 @@ span:hover {
 .smallaside img {
   width: 10vh;
 }
+
+.plus-aside {
+  grid-column: 2 / 7;
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 1em;
+}
+
+article {
+  grid-column: 1 / span 3;
+  grid-row: 1/7;
+}
+
+article p {
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+aside h4 {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+
+aside {
+
+  grid-column: 4;
+  grid-row: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+aside div {
+  flex: 1;
+  margin-top: 10px;
+  display: flex;
+}
+
+.port {
+  margin-left: 1em;
+  font-size: 0.75rem;
+}
+
+aside img {
+  width: 4em;
+}
+
+.pwidths {
+  grid-column: 2/5;
+  font-family: "nyt-imperial", georgia, "times new roman", times, serif;
+  font-size: 1.25rem;
+}
+
+.pwidths iframe {
+  width: 100%;
+}
+
+.md-img {
+  grid-column: 1 / span 5;
+}
+
+.md-fig {
+  grid-column: 1 / span 5;
+}
+
+.md-fig img {
+  width: 100%;
+}
+
+
+/* ======================================================================
+                       more info
+====================================================================== */
+
+.more-about-space {
+  grid-column: 3/9;
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+}
+
+.more {
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.more img {
+  width: 100%;
+}
+
+.popular {
+  grid-column: span/-1;
+}
+
+/* ====================================================================
+                     footer
+==================================================================== */
+
+.wrapper > footer {
+  grid-column: 1/-1;
+  grid-row: 5;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto 4em;
+}
+
+footer .topic_list {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 3em auto;
+  grid-column: 1/-1;
+  grid-row: 1;
+}
+
+.topic_list > h2 {
+  grid-row: 1;
+  grid-column: 2/span 4;
+  font-family: "Engravers Old English";
+  font-weight: 500;
+}
+
+.topics {
+  grid-row: 2;
+  grid-column: -2/2;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  color: inherit;
+  border-bottom: solid 1px #666;
+  padding-bottom: 1em;
+}
+
+.topics div {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.topic_list a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
+
+footer footer {
+  grid-column: 2/-2;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer footer * {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.75rem;
+}
+
