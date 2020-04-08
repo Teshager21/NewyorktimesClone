@@ -98,6 +98,7 @@ header div:nth-child(3) {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 3em auto auto auto auto;
+  grid-row-gap: 2em;
 }
 
 
@@ -215,7 +216,7 @@ aside img {
 
 .pwidths {
   grid-column: 2/5;
-  background-color: red;
+ /*  background-color: red; */
 }
 
 .pwidths iframe {
@@ -244,7 +245,7 @@ aside img {
   grid-row: 4;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 400px 400px;
+  grid-template-rows: auto auto;
 }
 
 .more {
@@ -260,8 +261,8 @@ aside img {
 
 .popular {
   grid-column: span/-1;
-  grid-row: span 2;
-  background-color: green;
+  /* grid-row: span 2; */
+ /*  background-color: green; */
 }
 
 
@@ -292,16 +293,20 @@ footer .topic_list {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-column: 1/-1;
-/*   background-color: teal; */
 
 }
 
 footer .topic_list div {
   display:flex;
   flex-direction: column;
+  text-decoration: none;
 }
 
-
+.topic_list a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1rem;
+}
 
 footer footer  {
   grid-column: 2/-2;
