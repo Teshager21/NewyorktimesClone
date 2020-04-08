@@ -280,7 +280,21 @@ aside img {
 }
 
 .md-img {
-  grid-column: 1 / span 5;
+  grid-column: 1 / -1;
+
+}
+
+.bckgrnd{
+  display:grid;
+  grid-template-columns: repeat(4,1fr); 
+  grid-row: 5em repeat(4,fr); 
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-repeat: no-repeat;
+  /* background-size: 400px 400px; */
+  background-color: red;
+  
+ 
+
 }
 
 .md-fig {
