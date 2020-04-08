@@ -123,7 +123,7 @@ header div:nth-child(3) {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 3em auto auto auto;
+  grid-template-rows: 1em auto auto auto;
   grid-row-gap: 2em;
 }
 
@@ -137,6 +137,7 @@ main {
   grid-row: 2;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  grid-row-gap: 2em;
 }
 
 figcaption {
@@ -153,8 +154,23 @@ figcaption span {
 
 .main-story {
   grid-column: 1/-1;
+  display:grid;
+  grid-template-rows: 8em auto ;
+  grid-template-columns: repeat(8,1fr);
 }
 
+.main-story h1 {
+  grid-column: 3/span 4;
+  grid-row: 1;
+  font-size: 2.7rem;
+  align-self: start;
+/*   padding-bottom: 2em; */
+}
+
+.main-story figure {
+  grid-column: 1/-1;
+  grid-row: 2;
+}
 .main-story-detail {
   padding: 10px 0;
   display: flex;
@@ -179,17 +195,38 @@ figcaption span {
   align-items: center;
 }
 
+.icons-1 {
+  justify-self: flex-end;
+  align-self: flex-end;
+  color: #333;
+}
+
+
+
+.icons-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 12em;
+ 
+}
+
 .icons {
   justify-self: flex-end;
   align-self: flex-end;
   color: #333;
 }
 
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-basis: 12em;
+.icons-1 a {
+  min-width: 1.55em;
+  color: black;
+  padding: 5px;
+  background: gray;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  border: #666 solid 1px;
+  background-color: #eee;
 }
 
 .icons a {
@@ -200,10 +237,10 @@ figcaption span {
   text-align: center;
   border-radius: 50%;
   text-decoration: none;
-  border: #666 solid 1px;
+  background-color: #eee;
 }
 
-.icons a:hover {
+.icons-1 a:hover {
   background-color: white;
   border: #999 solid 1px;
 }
@@ -264,6 +301,7 @@ article p {
   font-family: "nyt-imperial", georgia, "times new roman", times, serif;
   font-size: 1.25rem;
   color: #333;
+  line-height: 1.5em;
 }
 
 aside h4 {
@@ -294,9 +332,10 @@ aside img {
 }
 
 .pwidths {
-  grid-column: 2/5;
+  grid-column: 3 / span 4;
   font-family: "nyt-imperial", georgia, "times new roman", times, serif;
   font-size: 1.25rem;
+  line-height: 1.5em;
 }
 
 .pwidths iframe {
@@ -367,7 +406,9 @@ aside img {
 }
 
 .md-fig {
-  grid-column: 1 / span 5;
+  grid-column: 2/ span 6;
+  width: 80%;
+  justify-self:center;
 }
 
 .md-fig img {
@@ -380,18 +421,27 @@ aside img {
 ====================================================================== */
 
 .more-about-space {
-  grid-column: 3/9;
+  grid-column: 3/-3;
   grid-row: 3;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto;
+  grid-template-columns: repeat(3 ,1fr) 4em 1fr;
+  grid-template-rows: 4em auto auto;
 }
-
+.more-about-space h4 {
+  grid-row: 1;
+  grid-column: 1;
+  padding-top: 2.2em;
+  border-top: 1px solid #333;
+  text-align:center;
+}
+ 
 .more {
   grid-column: 1 / span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
+  grid-row: 2;
+ /*  border-top: 1px solid #333;  */
 }
 
 .more img {
@@ -399,7 +449,41 @@ aside img {
 }
 
 .popular {
-  grid-column: span/-1;
+  grid-column: 5/-1;
+  display:flex;
+  grid-row: 1/span 2;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #333;
+  padding-top: 2em;
+}
+
+.popular * {
+  color:inherit;
+  text-decoration: none;
+  border-bottom: 1px #999 solid;
+  padding-bottom: 0.5em;
+}
+.share_sub {
+   display:flex;
+   justify-content: space-between;
+}
+.sub-footer {
+  font-size: 0.75rem;
+  line-height: 0.78rem;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+.share_sub {
+  display: flex;
+  justify-content: space-between;
+}
+.share_sub  button {
+  flex: 2;
+  margin-right: 5em;
+}
+.icons {
+  flex:1;
 }
 
 
