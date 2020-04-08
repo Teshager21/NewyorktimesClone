@@ -154,9 +154,9 @@ figcaption span {
 
 .main-story {
   grid-column: 1/-1;
-  display:grid;
-  grid-template-rows: 8em auto ;
-  grid-template-columns: repeat(8,1fr);
+  display: grid;
+  grid-template-rows: 8em auto;
+  grid-template-columns: repeat(8, 1fr);
 }
 
 .main-story h1 {
@@ -164,13 +164,15 @@ figcaption span {
   grid-row: 1;
   font-size: 2.7rem;
   align-self: start;
-/*   padding-bottom: 2em; */
+
+  /*   padding-bottom: 2em; */
 }
 
 .main-story figure {
   grid-column: 1/-1;
   grid-row: 2;
 }
+
 .main-story-detail {
   padding: 10px 0;
   display: flex;
@@ -208,7 +210,6 @@ figcaption span {
   align-items: center;
   justify-content: space-between;
   flex-basis: 12em;
- 
 }
 
 .icons {
@@ -408,7 +409,7 @@ aside img {
 .md-fig {
   grid-column: 2/ span 6;
   width: 80%;
-  justify-self:center;
+  justify-self: center;
 }
 
 .md-fig img {
@@ -424,24 +425,26 @@ aside img {
   grid-column: 3/-3;
   grid-row: 3;
   display: grid;
-  grid-template-columns: repeat(3 ,1fr) 4em 1fr;
+  grid-template-columns: repeat(3, 1fr) 4em 1fr;
   grid-template-rows: 4em auto auto;
 }
+
 .more-about-space h4 {
   grid-row: 1;
   grid-column: 1;
   padding-top: 2.2em;
   border-top: 1px solid #333;
-  text-align:center;
+  text-align: center;
 }
- 
+
 .more {
   grid-column: 1 / span 3;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
   grid-row: 2;
- /*  border-top: 1px solid #333;  */
+
+  /*  border-top: 1px solid #333;  */
 }
 
 .more img {
@@ -450,7 +453,7 @@ aside img {
 
 .popular {
   grid-column: 5/-1;
-  display:flex;
+  display: flex;
   grid-row: 1/span 2;
   flex-direction: column;
   justify-content: space-between;
@@ -459,31 +462,36 @@ aside img {
 }
 
 .popular * {
-  color:inherit;
+  color: inherit;
   text-decoration: none;
   border-bottom: 1px #999 solid;
   padding-bottom: 0.5em;
 }
+
 .share_sub {
-   display:flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .sub-footer {
   font-size: 0.75rem;
   line-height: 0.78rem;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
 }
+
 .share_sub {
   display: flex;
   justify-content: space-between;
 }
-.share_sub  button {
+
+.share_sub button {
   flex: 2;
   margin-right: 5em;
 }
+
 .icons {
-  flex:1;
+  flex: 1;
 }
 
 
