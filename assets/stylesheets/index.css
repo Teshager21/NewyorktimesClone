@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "Engravers Old English";
-  src: url(/assets/fonts/Engravers\Old\English\Normal.ttf);
+  src: url("../fonts/Engravers\ Old\ English\ Normal.ttf");
   font-style: normal;
   font-weight: 100;
 }
@@ -26,19 +26,19 @@
   font-weight: 100;
 }
 
-body {
-  background-color: #fff;
-}
 
 /* ======================================================================
                        navbar
 ====================================================================== */
 
 header {
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 1px solid grey;
-  padding: 0.1em 1.5em;
+background-color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    padding: 0.1em 1.5em;
 
 }
 
