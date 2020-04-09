@@ -66,6 +66,19 @@ header {
     padding: 0.1em 1.5em;
 }
 
+.topics div {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+aside div {
+    flex: 1;
+    margin-top: 10px;
+    display: flex;
+}
+
 header div:first-child {
     display: flex;
     align-items: center;
@@ -85,6 +98,14 @@ h1 {
     grid-row: 1;
 }
 
+aside img {
+    width: 4em;
+}
+
+.figures img {
+    width: 25vh;
+}
+
 .more img {
     width: 100%;
 }
@@ -95,17 +116,6 @@ h1 {
 
 .smallaside img {
     width: 10vh;
-}
-
-aside img {
-    width: 4em;
-}
-
-.topics div {
-    grid-column: span 1;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
 }
 
 header div:nth-child(2) {
@@ -139,6 +149,12 @@ header div:nth-child(3) {
     border-radius: 3px;
     border: 1px solid gray;
     font-weight: 700;
+}
+
+aside a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 .breaker a {
@@ -250,6 +266,12 @@ figcaption span {
     text-decoration: #666 solid 1px;
 }
 
+.topic_list a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+}
+
 .main-story-detail a:hover {
     text-decoration: none;
 }
@@ -286,8 +308,14 @@ figcaption span {
     font-size: 30px;
 }
 
+.bckgrnd span {
+    font-family: "nyt-franklinbold", arial, helvetica, sans-serif;
+    margin-right: 5px;
+    font-size: 11px;
+}
+
 .whiteicons .ion-icon:hover,
-© span:hover {
+span:hover {
     opacity: 0.3;
 }
 
@@ -300,10 +328,6 @@ figcaption span {
     background-image: url("../img/chatbox-outline.svg");
     background-repeat: no-repeat;
     background-size: 35px;
-}
-
-.figures img {
-    width: 25vh;
 }
 
 .smallaside {
@@ -368,18 +392,6 @@ aside {
     flex-direction: column;
 }
 
-aside div {
-    flex: 1;
-    margin-top: 10px;
-    display: flex;
-}
-
-aside a {
-    color: #000;
-    text-decoration: none;
-    font-size: 1rem;
-}
-
 .port {
     margin-left: 1em;
     font-size: 0.75rem;
@@ -424,12 +436,6 @@ aside a {
     font-size: 14px;
     line-height: 17px;
     font-family: "nyt-franklin", arial, helvetica, sans-serif;
-}
-
-.bckgrnd span {
-    font-family: "nyt-franklinbold", arial, helvetica, sans-serif;
-    margin-right: 5px;
-    font-size: 11px;
 }
 
 .row-2 {
@@ -578,10 +584,4 @@ footer .topic_list {
     color: inherit;
     border-bottom: solid 1px #666;
     padding-bottom: 1em;
-}
-
-.topic_list a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 1rem;
 }
