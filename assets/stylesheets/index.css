@@ -243,7 +243,7 @@ figcaption span {
 
 
 
-.whiteicons ion-icon:hover,
+.whiteicons .ion-icon:hover,
 span:hover {
   opacity: 0.3;
 }
