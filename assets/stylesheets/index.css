@@ -172,40 +172,6 @@ figcaption span {
   grid-row: 2;
 }
 
-.main-story-detail {
-  padding: 10px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.main-story-detail a {
-  padding: 0.7em 0;
-  color: #333;
-  font-weight: 900;
-  text-decoration: #666 solid 1px;
-}
-
-.main-story-detail a:hover {
-  text-decoration: none;
-}
-
-.icons_time {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.icons-1 {
-  justify-self: flex-end;
-  align-self: flex-end;
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-basis: 12em;
-}
-
 .icons {
   justify-self: flex-end;
   align-self: flex-end;
@@ -241,6 +207,41 @@ figcaption span {
   background-color: white;
   border: #999 solid 1px;
 }
+.main-story-detail {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-story-detail a {
+  padding: 0.7em 0;
+  color: #333;
+  font-weight: 900;
+  text-decoration: #666 solid 1px;
+}
+
+.main-story-detail a:hover {
+  text-decoration: none;
+}
+
+.icons_time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-1 {
+  justify-self: flex-end;
+  align-self: flex-end;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 12em;
+}
+
+
 
 .whiteicons ion-icon:hover,
 span:hover {
