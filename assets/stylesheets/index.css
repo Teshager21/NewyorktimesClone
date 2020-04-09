@@ -200,9 +200,6 @@ figcaption span {
   justify-self: flex-end;
   align-self: flex-end;
   color: #333;
-}
-
-.icons-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -213,6 +210,7 @@ figcaption span {
   justify-self: flex-end;
   align-self: flex-end;
   color: #333;
+  flex: 1;
 }
 
 .icons-1 a {
@@ -255,7 +253,7 @@ span:hover {
   flex-basis: 4em;
 }
 
-.whiteicons ion-icon {
+.whiteicons .ion-icon {
   font-size: 30px;
 }
 
@@ -463,8 +461,6 @@ aside img {
   display: grid;
   grid-template-columns: repeat(3, 1fr) 4em 1fr;
   grid-template-rows: 4em auto auto;
-
-  /*   border-bottom: double 1px #ddd; */
 }
 
 .more-about-space h4 {
@@ -485,6 +481,20 @@ aside img {
 
 .more img {
   width: 100%;
+}
+
+footer footer {
+  grid-column: 2/-2;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer footer * {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.75rem;
 }
 
 .popular {
@@ -519,18 +529,9 @@ aside img {
   padding-top: 1.5em;
 }
 
-.share_sub {
-  display: flex;
-  justify-content: space-between;
-}
-
 .share_sub button {
   flex: 2;
   margin-right: 5em;
-}
-
-.icons {
-  flex: 1;
 }
 
 /* ====================================================================
@@ -585,16 +586,4 @@ footer .topic_list {
   font-size: 1rem;
 }
 
-footer footer {
-  grid-column: 2/-2;
-  grid-row: 2;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-footer footer * {
-  text-decoration: none;
-  color: inherit;
-  font-size: 0.75rem;
-}
