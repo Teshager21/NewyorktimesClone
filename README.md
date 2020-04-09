@@ -41,9 +41,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@mcervantes71](https://github.com/mcervantes71)
-- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
-- Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+- Github: [@Ferm0494](https://github.com/Ferm0494)
+- Twitter: [@ferm494](https://twitter.com/ferm494)
+- Linkedin: [linkedin](https://www.linkedin.com/in/fernando-rivas-5bbb41147/)
 
 
 ## 🤝 Contributing
