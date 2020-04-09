@@ -82,7 +82,7 @@ h1 {
   font-style: italic;
   font-weight: 700;
   grid-column: 1/-1;
-  grid-row: 1; 
+  grid-row: 1;
 }
 
 header div:nth-child(2) {
@@ -244,7 +244,8 @@ figcaption span {
   background-color: #eee;
 }
 
-.icons-1 a:hover , .icons a:hover { 
+.icons-1 a:hover,
+ .icons a:hover {
   background-color: white;
   border: #999 solid 1px;
 }
@@ -294,7 +295,7 @@ span:hover {
   grid-template-columns: repeat(6 1fr);
   grid-template-rows: repeat(6, auto);
   grid-gap: 1em;
-} 
+}
 
 article {
   grid-column: 1 / span 3;
@@ -308,25 +309,25 @@ article p {
   color: #333;
   line-height: 1.5em;
 }
+
 .breaker {
- 
   /* border-bottom: 1px solid #000; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-
 }
+
 .break-span {
   border-top: 1px solid #ddd;
   padding-top: 1em;
- 
 }
 
 .breaker-span-2 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 1em;
- }
+}
+
 .breaker p {
   padding-top: 1em;
   font-weight: 900;
@@ -361,11 +362,13 @@ aside div {
   margin-top: 10px;
   display: flex;
 }
+
 aside a {
-  color:#000;
+  color: #000;
   text-decoration: none;
   font-size: 1rem;
 }
+
 .port {
   margin-left: 1em;
   font-size: 0.75rem;
@@ -470,7 +473,8 @@ aside img {
   display: grid;
   grid-template-columns: repeat(3, 1fr) 4em 1fr;
   grid-template-rows: 4em auto auto;
-/*   border-bottom: double 1px #ddd; */
+
+  /*   border-bottom: double 1px #ddd; */
 }
 
 .more-about-space h4 {
