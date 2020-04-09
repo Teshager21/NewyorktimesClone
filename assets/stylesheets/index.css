@@ -242,8 +242,6 @@ figcaption span {
   flex-basis: 12em;
 }
 
-
-
 .whiteicons .ion-icon:hover,
 span:hover {
   opacity: 0.3;
@@ -587,5 +585,3 @@ footer .topic_list {
   color: inherit;
   font-size: 1rem;
 }
-
-
