@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-
 /* ======================================================================
                      typography
 ====================================================================== */
@@ -50,7 +49,6 @@
   src: url("../fonts/cheltenham-cond-normal-300.ttf");
   font-style: normal;
 }
-
 
 /* ======================================================================
                      navbar
@@ -165,7 +163,6 @@ aside a {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
 /* ======================================================================
                      layout
 ====================================================================== */
@@ -176,7 +173,6 @@ aside a {
   grid-template-rows: 1em auto auto auto;
   grid-row-gap: 2em;
 }
-
 
 /* ======================================================================
                      main
@@ -543,10 +539,9 @@ footer footer * {
 }
 
 .share_sub button {
-  flex: 2;
-  margin-right: 5em;
+  flex: 1.5;
+  margin-right:5em;
 }
-
 
 /* ====================================================================
                    footer
