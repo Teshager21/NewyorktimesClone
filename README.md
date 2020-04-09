@@ -1,10 +1,7 @@
 # New York Times Clone
  This is a project of cloning newyorktimes.com story page a part of CSS.
 
-![screenshot](./screenshot.png)
-
-![screenshot](./screenshot.png)
-
+![screenshot](./assets/img/screenshot.png)
     Additional description about the project and its features.
 
 ## Built With
@@ -14,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://teshager21.github.io/HTML-Forms/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Ferm0494/NewYorktimes/7dd8537ff9df3bc7769afd4e1c6c358d2d611bb8/index.html)
 
 ## Getting Started
 
