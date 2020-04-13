@@ -117,10 +117,10 @@ aside img {
 }
 
 .topic_list > img {
-    grid-row: 1;
-    grid-column: 2 / span 4;
-    height: 2em;
-  }
+  grid-row: 1;
+  grid-column: 2 / span 4;
+  height: 2em;
+}
 
 header div:nth-child(2) {
   flex: 3;
