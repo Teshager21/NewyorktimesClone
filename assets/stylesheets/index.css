@@ -279,9 +279,9 @@ main {
   font-size: 1rem;
 }
 
- .sub-footer a {
-    color: #333;
-  }
+.sub-footer a {
+  color: #333;
+}
 
 .main-story-detail a:hover {
   text-decoration: none;
