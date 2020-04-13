@@ -279,6 +279,10 @@ main {
   font-size: 1rem;
 }
 
+ .sub-footer a {
+    color: #333;
+  }
+
 .main-story-detail a:hover {
   text-decoration: none;
 }
@@ -558,10 +562,6 @@ aside {
   line-height: 0.78rem;
   padding-bottom: 1.5em;
   padding-top: 1.5em;
-}
-
-.sub-footer a {
-  color: #333;
 }
 
 .share_sub button {
