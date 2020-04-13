@@ -214,6 +214,18 @@ figcaption span {
   /*   padding-bottom: 2em; */
 }
 
+@media screen and (max-width: 1600px){
+  .main-story h1 {
+    grid-column: 3/span 5;
+    grid-row: 1;
+    font-size: 1.8rem;
+    align-self: start;
+    /* background-color:red; */
+  }
+  
+
+}
+
 .main-story figure {
   grid-column: 1/-1;
   grid-row: 2;
@@ -234,7 +246,6 @@ figcaption span {
   text-align: center;
   border-radius: 50%;
   text-decoration: none;
-  border: #666 solid 1px;
   background-color: #eee;
 }
 
@@ -410,9 +421,9 @@ aside {
 }
 
 .md-img h3 {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  font-family: "nyt-cheltenham", arial, helvetica, sans-serif;
+  font-family: "nyt-cheltenham",georgia,times new roman,times,serif;
   padding: 10px 0;
 }
 
@@ -421,6 +432,8 @@ aside {
   color: gray;
   font-size: 1rem;
   font-weight: 300;
+  letter-spacing: 0.04rem;
+  line-height: 1.2rem;
 }
 
 .bckgrnd {
@@ -491,6 +504,14 @@ aside {
   grid-gap: 1em;
   grid-row: 2;
 }
+.more figcaption {
+  padding-top: 1em;
+
+}
+.more figcaption a {
+  color: #333;
+  text-decoration: none;
+}
 
 footer footer {
   grid-column: 2/-2;
@@ -538,6 +559,10 @@ footer footer * {
   padding-top: 1.5em;
 }
 
+.sub-footer a {
+  color: #333;
+}
+
 .share_sub button {
   flex: 1.5;
   margin-right: 5em;
@@ -580,4 +605,77 @@ footer .topic_list {
   color: inherit;
   border-bottom: solid 1px #666;
   padding-bottom: 1em;
+}
+.topics  div:last-child{
+  border-left: 1px #ddd solid;
+  padding-left:1em;
+}
+.topics div:last-child a:nth-child(3){
+  color: purple;
+}
+
+.topics .education {
+  padding-bottom:1em;
+  border-bottom: 1px #ddd solid;
+  margin-bottom: 1em;
+}
+
+.topics div:nth-child(6) svg {
+  width:1em;
+  padding-right:0.2em;
+}
+ .topics div:last-child .cooking {
+   padding-bottom: 1em;
+ }
+ .fixed-footer {
+   grid-column: 1/-1;
+  
+   height: 4em;
+   border-top: 1px solid #333;
+   display:flex;
+   justify-items: space-around;
+   margin: 0;
+   padding: 0;
+   position: fixed;
+   bottom:0;
+  /*  left:0; */
+  opacity: 1;
+  width: 100%;
+  background-color: #fff;
+
+ }
+
+ .fixed-footer div:first-child{
+   flex: 6;
+   /* justify-self:center; */
+   align-self: center;
+  
+  
+  
+ 
+ } 
+
+ .fixed-footer div:first-child p {
+   justify-self: center;
+  /*  background-color:blue; */
+   justify-content: center;
+   margin-left: 50%;
+ }
+ 
+ .fixed-footer div:last-child {
+   flex: 2;
+   align-self: center;
+   justify-self: center;
+   font-weight: 700;
+ }
+ .fixed-footer div:last-child button {
+ width: 3em;
+ height: 2em;
+ margin: 0;
+ padding: 0;
+ font-size:2rem;
+ background-color: inherit;
+ border-left: dotted #333 1px;
+ border-right: dotted #333 1px;
+ border-top: 1px solid #333;;
 }
