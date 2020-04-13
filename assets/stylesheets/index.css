@@ -526,6 +526,7 @@ aside {
 
 .footer-footer {
   grid-column: 2/-2;
+
   /* grid-row: 4; */
   display: flex;
   justify-content: space-between;
@@ -585,7 +586,7 @@ aside {
   grid-row: 4;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows:auto 4em 4em;
+  grid-template-rows: auto 4em 4em;
 }
 
 footer .topic_list {
@@ -679,5 +680,4 @@ footer .topic_list {
   border-left: dotted #333 1px;
   border-right: dotted #333 1px;
   border-top: 1px solid #333;
-
 }
