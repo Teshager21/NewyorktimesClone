@@ -590,10 +590,10 @@ footer .topic_list {
   grid-row: 1;
 }
 
-.topic_list > img{
+.topic_list > img {
   grid-row: 1;
   grid-column: 2 / span 4;
-  height:2em;
+  height: 2em;
 }
 
 .topics {
