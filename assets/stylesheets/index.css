@@ -116,6 +116,12 @@ aside img {
   width: 10vh;
 }
 
+.topic_list > img {
+    grid-row: 1;
+    grid-column: 2 / span 4;
+    height: 2em;
+  }
+
 header div:nth-child(2) {
   flex: 3;
   text-align: center;
@@ -588,12 +594,6 @@ footer .topic_list {
   grid-template-rows: 3em auto;
   grid-column: 1/-1;
   grid-row: 1;
-}
-
-.topic_list > img {
-  grid-row: 1;
-  grid-column: 2 / span 4;
-  height: 2em;
 }
 
 .topics {
