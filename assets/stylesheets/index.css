@@ -613,7 +613,7 @@ footer .topic_list {
 }
 
 .footer-logo {
- /*  border-top: solid 1px #666; */
+  /*  border-top: solid 1px #666; */
   grid-column: 2;
 }
 
