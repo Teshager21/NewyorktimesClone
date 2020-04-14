@@ -226,10 +226,11 @@ main {
     grid-row: 1;
     font-size: 1.8rem;
     align-self: start;
-
-    /* background-color:red; */
+   }
+    .nav-buttons button:first-child {
+      display: none;
+    }
   }
-}
 
 .main-story figure {
   grid-column: 1/-1;
@@ -684,4 +685,5 @@ footer .topic_list {
   background-color: inherit;
   border-left: dotted #999 1px;
   border-right: dotted #999 1px;
+  border-bottom: dotted #fff 1px;
 }
