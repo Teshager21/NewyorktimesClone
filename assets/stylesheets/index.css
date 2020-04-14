@@ -226,11 +226,12 @@ main {
     grid-row: 1;
     font-size: 1.8rem;
     align-self: start;
-   }
-    .nav-buttons button:first-child {
-      display: none;
-    }
   }
+
+  .nav-buttons button:first-child {
+    display: none;
+  }
+}
 
 .main-story figure {
   grid-column: 1/-1;
