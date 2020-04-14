@@ -421,6 +421,7 @@ aside {
   font-family: "nyt-imperial", georgia, "times new roman", times, serif;
   font-size: 1.25rem;
   line-height: 1.5em;
+  min-width: 360px;
 }
 
 .pwidths iframe {
@@ -597,6 +598,8 @@ footer .topic_list {
   grid-template-rows: 3em auto;
   grid-column: 1/-1;
   grid-row: 1;
+  border-top: double #ddd 1px;
+  padding: 2em;
 }
 
 .topics {
@@ -607,6 +610,11 @@ footer .topic_list {
   color: inherit;
   border-bottom: solid 1px #666;
   padding-bottom: 1em;
+}
+
+.footer-logo {
+ /*  border-top: solid 1px #666; */
+  grid-column: 2;
 }
 
 .topics div:last-child {
@@ -643,8 +651,6 @@ footer .topic_list {
   padding: 0;
   position: fixed;
   bottom: 0;
-
-  /*  left:0; */
   opacity: 1;
   width: 100%;
   background-color: #fff;
@@ -652,15 +658,11 @@ footer .topic_list {
 
 .fixed-footer div:first-child {
   flex: 6;
-
-  /* justify-self:center; */
   align-self: center;
 }
 
 .fixed-footer div:first-child p {
   justify-self: center;
-
-  /*  background-color:blue; */
   justify-content: center;
   margin-left: 50%;
 }
@@ -678,7 +680,7 @@ footer .topic_list {
   margin: 0;
   padding: 0;
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: 500;
   background-color: inherit;
   border-left: dotted #999 1px;
   border-right: dotted #999 1px;
