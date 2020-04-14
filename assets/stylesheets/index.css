@@ -253,7 +253,7 @@ main {
   text-decoration: none;
   background-color: #eee;
   border: #fff solid 1px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 .icons a {
@@ -305,7 +305,7 @@ main {
 .icons_time {
   display: flex;
   justify-content: space-between;
- align-items: center;
+  align-items: center;
 }
 
 .icons-1 {
@@ -342,8 +342,8 @@ span:hover {
 #chat {
   width: 40px;
   height: 1.9rem;
-   padding-top: 0.4rem;
-  padding-left: 0.4rem; 
+  padding-top: 0.4rem;
+  padding-left: 0.4rem;
   font-size: 0.75rem;
   background-image: url("../img/chatbox-outline.svg");
   background-repeat: no-repeat;
