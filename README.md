@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Teshager21/NewyorktimesClone/e43b74f93bed5f01f85a1b1657ce14288ec25202/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Teshager21/NewyorktimesClone/74273f2b2a268bd5559358d57773dca110a7ba7c/index.html)
 
 ## Getting Started
 
